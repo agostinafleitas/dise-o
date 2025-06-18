@@ -1,0 +1,5 @@
+li {display: inline; margin-right: 40px;}
+a {text-decoration: none; color: rgb(198, 223, 234);}
+nav {background-color: rgb(246, 212, 111);line-height: 50px; text-align: right;}
+nav img {float: left; margin-top: 2px; height: 45px; width: 45px;}
+body {text-align: center; background-color: rgb(250, 223, 154); margin: 0;}

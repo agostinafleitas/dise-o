@@ -1,0 +1,8 @@
+li {display: inline; margin-right: 40px;}
+a {text-decoration: none; color: rgb(198, 223, 234);}
+nav {background-color: rgb(245, 212, 121); line-height: 50px; text-align: right;}
+nav img {float: left; margin-top: 2px; line-height: 45px; width: 45px;}
+body {background-color: rgb(245, 212, 121);margin: 0}
+aside {background-color: rgb(243, 236, 218); display: inline-block;width: 10%; height: 800px; vertical-align: top;}
+section {background-color: rgb(245, 212, 121); display: inline-block; width: 90%; height: 800px;}
+footer {background-color: rgb(245, 212, 121); height: 50px; color: rgb(207, 207, 210);}
