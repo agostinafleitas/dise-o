@@ -1,2 +1,2 @@
-# dise-o
+# index
 trabajos 2025
