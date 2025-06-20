@@ -6,6 +6,34 @@
     <title>Mi página web</title>
     <link rel="icon" href="icono/mickeylogo-png.png" type="image/x-icon">
     <link href="roboto-condensed">
+    <style>
+        @media (max-width: 768px) {
+            nav {
+                justify-content: center;
+            }
+
+            ul {
+                flex-direction: column;
+            }
+
+            main {
+                flex-direction: column;
+            }
+
+            article, aside {
+                width: 100%;
+            }
+
+            li {
+                width: 100vw;
+                display: inline-block;
+            }
+            .multimedia img, .multimedia video {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body style="background-color: rgb(198, 223, 234);">
@@ -13,6 +41,7 @@
 <nav>
     <ul>
         <li><img src="imagenes/LOGO CASTILLO.png" width="40px"></li>
+        <li style="display: inline-block;"><a href="../index.html"> Linktree </a></li>
         <li style="display: inline-block;"><a href="Home.html"> Home </a></li>
         <li style="display: inline-block;"><a href="Tabla.html"> Momentos </a></li>
         <li style="display: inline-block;"><a href="Play.html"> Play </a></li>
