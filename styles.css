@@ -1,0 +1,97 @@
+img {
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+header { 
+    text-align: center;
+}
+header ul li {
+    display: inline;
+}
+ul a img {
+    border-radius: 0%;
+    width: 30px;
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+    height: 40px;
+}
+
+nav li {
+    margin-bottom: 40px;
+}
+
+nav a {
+    padding: 10px 100px;
+    background-color: rgb(169, 194, 209);
+    border-radius: 20px;
+}
+
+li a {
+color: rgb(141, 211, 255);
+}
+
+.test {
+    background-color: rgb(169, 195, 209);
+    /* transform: translateX(50%); */
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #a9bad1;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+}
+
+nav a:hover {
+    background-color: #aec0de;
+    transform: scale(1.05);
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.3);
+}
+
+body {
+    background: linear-gradient(to bottom, #f8f9f9, #d7e3ed);
+    background-attachment: fixed;
+}
+
+header ul li a img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+header ul li a img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+    nav a {
+        width: 80%;
+        display: block;
+        margin: 15px auto;
+        font-size: 16px;
+    }
+
+    img {
+        width: 120px;
+    }
+}
+
+body {
+    animation: fadein 1s ease-in-out;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
