@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMi Blog Personal</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body style="background-color: rgb(137, 197, 228)">
+    <nav style="background-color: aliceblue;">
+        <ul>
+            <li> <img src="icono/travel.png" width="55px"></li>
+            <li class="item"><a href="../index.html">Linktree</a></li>
+            <li class="item"><a href="index.html">Inicio</a></li>
+            <li class="item"><a href="turisteando.html">Turisteando</a></li>
+            <li class="item"><a href="sobremi.html">Sobre mi</a></li>
+            <li class="item"><a href="contacto.html">Contacto</a></li>
+            
+        </ul>
+    </nav>
+   
+
+    <form action="/enviar-reserva" method="POST">
+        <h2>Reservá tu destino favorito</h2>
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+
+        <label for="caminata">Elegí un destino:</label><br>
+        <select id="caminata" name="caminata" required>
+            <option value="">--Seleccioná una opción--</option>
+            <option value="magic_kingdom">Magic Kingdom</option>
+            <option value="brasil_rio">Brasil</option>
+            <option value="isla_saona">Isla Saona</option>
+            <option value="central_park">Central Park</option>
+            <option value="coco_cay">Coco Cay</option>
+        </select><br><br>
+
+        <p>Nivel de experiencia:</p>
+        <input type="radio" id="principiante" name="experiencia" value="principiante" required>
+        <label for="principiante">Principiante</label><br>
+
+        <input type="radio" id="intermedio" name="experiencia" value="intermedio">
+        <label for="intermedio">Intermedio</label><br>
+
+        <input type="radio" id="avanzado" name="experiencia" value="avanzado">
+        <label for="avanzado">Avanzado</label><br><br>
+
+        <label for="comentarios">Comentarios adicionales:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="¿Querés contarnos algo más?"></textarea><br><br>
+
+        <button type="submit">Enviar reserva</button>
+    </form>
+    <footer style="background-color: aliceblue;">
+      <ul>
+        <p> Conocé mi <a href="https://www.instagram.com/agosfleitas">Instagram</a></p>
+          <p> Hecho por Agostina Fleitas </p>
+      </ul>
+  </footer>
+</body>
+</html>
